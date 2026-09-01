@@ -1,0 +1,1561 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Comparativo de Procesadores 2016-2026</title>
+
+    <!-- Tipografía -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Iconos -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Chart.js para los gráficos -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <!-- =====================================================
+         BARRA DE NAVEGACIÓN
+    ====================================================== -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            <i class="fa-solid fa-microchip"></i>
+            <span>CPU<span class="logo-highlight">LAB</span></span>
+        </div>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#metodologia">Metodología</a>
+            <a href="#evolucion">Evolución</a>
+            <a href="#comparador">Comparador</a>
+            <a href="#graficos">Gráficos</a>
+            <a href="#analisis">Análisis</a>
+            <a href="#conceptos">Conceptos</a>
+            <a href="#arquitecturas">ARM/RISC-V</a>
+            <a href="#embebidos">Embebidos</a>
+            <a href="#fuentes">Fuentes</a>
+        </nav>
+
+        <button class="menu-btn" id="menuBtn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </header>
+
+
+    <!-- =====================================================
+         HERO / INICIO
+    ====================================================== -->
+
+    <main>
+
+        <section id="inicio" class="hero">
+
+            <div class="hero-content">
+
+                <span class="badge">
+                    ARQUITECTURA DE COMPUTADORES · 2016–2026
+                </span>
+
+                <h1>
+                    Evolución de los
+                    <span>Procesadores</span>
+                </h1>
+
+                <p class="hero-description">
+                    Comparativo técnico y cuantitativo de las principales
+                    familias de procesadores de Intel, AMD, Apple y Qualcomm.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#comparador" class="btn btn-primary">
+                        <i class="fa-solid fa-chart-column"></i>
+                        Comparar procesadores
+                    </a>
+
+                    <a href="#evolucion" class="btn btn-secondary">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                        Ver evolución
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-chip">
+
+                <div class="chip-container">
+
+                    <i class="fa-solid fa-microchip chip-icon"></i>
+
+                    <div class="chip-lines"></div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             INTRODUCCIÓN
+        ====================================================== -->
+
+        <section class="intro section-container">
+
+            <div class="section-title">
+
+                <span class="section-number">01</span>
+
+                <div>
+                    <span class="section-label">INTRODUCCIÓN</span>
+
+                    <h2>
+                        Una década de transformación
+                    </h2>
+                </div>
+
+            </div>
+
+            <div class="intro-grid">
+
+                <div class="intro-text">
+
+                    <p>
+                        Entre 2016 y 2026, el diseño de procesadores ha
+                        experimentado una transformación profunda. La
+                        disminución de las ventajas obtenidas únicamente
+                        mediante reducción del tamaño de los transistores
+                        ha impulsado nuevas estrategias de diseño.
+                    </p>
+
+                    <p>
+                        Durante este periodo se consolidaron arquitecturas
+                        heterogéneas, diseños basados en chiplets,
+                        procesadores ARM de alto rendimiento y unidades
+                        especializadas para inteligencia artificial.
+                    </p>
+
+                    <p>
+                        Este proyecto analiza la evolución de Intel, AMD,
+                        Apple y Qualcomm considerando rendimiento,
+                        frecuencia, eficiencia energética, memoria,
+                        aceleración de IA, precio y mercado objetivo.
+                    </p>
+
+                </div>
+
+
+                <div class="stats-grid">
+
+                    <div class="stat-card">
+                        <i class="fa-solid fa-calendar"></i>
+                        <strong>10</strong>
+                        <span>Años analizados</span>
+                    </div>
+
+                    <div class="stat-card">
+                        <i class="fa-solid fa-building"></i>
+                        <strong>4</strong>
+                        <span>Fabricantes</span>
+                    </div>
+
+                    <div class="stat-card">
+                        <i class="fa-solid fa-microchip"></i>
+                        <strong>6+</strong>
+                        <span>Familias CPU</span>
+                    </div>
+
+                    <div class="stat-card">
+                        <i class="fa-solid fa-brain"></i>
+                        <strong>IA</strong>
+                        <span>Nueva generación</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             METODOLOGÍA Y CRITERIOS
+        ====================================================== -->
+
+        <section id="metodologia" class="methodology section-container">
+
+            <div class="section-title">
+                <span class="section-number">02</span>
+                <div>
+                    <span class="section-label">METODOLOGÍA</span>
+                    <h2>Cómo se realizó el comparativo</h2>
+                </div>
+            </div>
+
+            <div class="methodology-grid">
+                <article class="method-card">
+                    <i class="fa-solid fa-list-check"></i>
+                    <h3>Criterios</h3>
+                    <p>Se comparan año, fabricante, familia, arquitectura, frecuencia máxima, núcleos, hilos, TDP, aceleración de IA, mercado objetivo y precio de referencia.</p>
+                </article>
+
+                <article class="method-card">
+                    <i class="fa-solid fa-database"></i>
+                    <h3>Fuentes</h3>
+                    <p>Las especificaciones técnicas se priorizan desde las páginas oficiales de Intel, AMD, Apple y Qualcomm. Los precios son referencias de mercado y no representan el costo del chip en todos los casos.</p>
+                </article>
+
+                <article class="method-card">
+                    <i class="fa-solid fa-scale-balanced"></i>
+                    <h3>Comparabilidad</h3>
+                    <p>Los valores de frecuencia, TDP y TOPS sirven como indicadores técnicos; no sustituyen pruebas de rendimiento. TOPS no es una medida directa de rendimiento general de CPU.</p>
+                </article>
+
+                <article class="method-card">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <h3>Periodo</h3>
+                    <p>El análisis cubre 2016–2026. Se incluye un procesador de referencia de 2016 para contrastarlo con las arquitecturas modernas y explicar el cambio tecnológico durante la década.</p>
+                </article>
+            </div>
+
+            <div class="method-note">
+                <strong>Nota académica:</strong> el TDP no equivale al consumo eléctrico real en todas las cargas y los precios de equipos completos (por ejemplo, MacBook o ASUS) no deben interpretarse como precio del procesador por separado.
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             EVOLUCIÓN
+        ====================================================== -->
+
+        <section id="evolucion" class="evolution section-container">
+
+            <div class="section-title">
+
+                <span class="section-number">03</span>
+
+                <div>
+                    <span class="section-label">LÍNEA TEMPORAL</span>
+
+                    <h2>
+                        Evolución 2016–2026
+                    </h2>
+                </div>
+
+            </div>
+
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+
+                    <span class="timeline-year">2016</span>
+
+                    <div class="timeline-content">
+
+                        <h3>
+                            Era del multicore
+                        </h3>
+
+                        <p>
+                            Intel consolida Skylake y AMD comienza el
+                            desarrollo de la arquitectura Zen.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <span class="timeline-year">2017</span>
+
+                    <div class="timeline-content">
+
+                        <h3>
+                            AMD Ryzen
+                        </h3>
+
+                        <p>
+                            AMD introduce Ryzen basado en Zen,
+                            aumentando considerablemente la competencia
+                            en el mercado de CPU x86.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <span class="timeline-year">2020</span>
+
+                    <div class="timeline-content">
+
+                        <h3>
+                            Apple Silicon
+                        </h3>
+
+                        <p>
+                            Apple inicia la transición de sus computadores
+                            Mac hacia procesadores diseñados internamente
+                            basados en ARM.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <span class="timeline-year">2022</span>
+
+                    <div class="timeline-content">
+
+                        <h3>
+                            Chiplets y aceleración
+                        </h3>
+
+                        <p>
+                            El diseño por chiplets se convierte en una
+                            estrategia fundamental para aumentar el
+                            rendimiento y mejorar el rendimiento por área.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <span class="timeline-year">2024–2026</span>
+
+                    <div class="timeline-content">
+
+                        <h3>
+                            Era de la IA
+                        </h3>
+
+                        <p>
+                            Las NPU y aceleradores dedicados para
+                            inteligencia artificial se incorporan
+                            progresivamente en computadores personales.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             FABRICANTES
+        ====================================================== -->
+
+        <section class="manufacturers section-container">
+
+            <div class="section-title">
+
+                <span class="section-number">04</span>
+
+                <div>
+                    <span class="section-label">FABRICANTES</span>
+
+                    <h2>
+                        Cuatro enfoques diferentes
+                    </h2>
+                </div>
+
+            </div>
+
+
+            <div class="manufacturer-grid">
+
+
+                <!-- INTEL -->
+
+                <article class="manufacturer-card intel" data-brand="Intel" tabindex="0" role="button" aria-label="Filtrar comparador por Intel">
+
+                    <div class="manufacturer-icon">
+                        <img src="images/intel-logo.jpg" alt="Logo de Intel" class="manufacturer-logo">
+                    </div>
+
+                    <span class="manufacturer-tag">
+                        x86
+                    </span>
+
+                    <h3>Intel</h3>
+
+                    <p>
+                        Core · Core Ultra · Xeon
+                    </p>
+
+                    <span class="market">
+                        PC · Workstation · Servidores
+                    </span>
+
+                    <a href="https://www.youtube.com/watch?v=figaZdGBpfc"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="manufacturer-video-link">
+
+                        <i class="fa-brands fa-youtube"></i>
+                        Ver review en español
+
+                    </a>
+
+                    <span class="manufacturer-card-hint">
+                        Ver en el comparador &rarr;
+                    </span>
+
+                </article>
+
+
+                <!-- AMD -->
+
+                <article class="manufacturer-card amd" data-brand="AMD" tabindex="0" role="button" aria-label="Filtrar comparador por AMD">
+
+                    <div class="manufacturer-icon">
+                        <img src="images/amd-logo.jpg" alt="Logo de AMD" class="manufacturer-logo">
+                    </div>
+
+                    <span class="manufacturer-tag">
+                        x86
+                    </span>
+
+                    <h3>AMD</h3>
+
+                    <p>
+                        Ryzen · Ryzen AI · Threadripper
+                    </p>
+
+                    <span class="market">
+                        PC · Gaming · Workstation
+                    </span>
+
+                    <a href="https://www.youtube.com/watch?v=69SpHoDcdhw"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="manufacturer-video-link">
+
+                        <i class="fa-brands fa-youtube"></i>
+                        Ver review en español
+
+                    </a>
+
+                    <span class="manufacturer-card-hint">
+                        Ver en el comparador &rarr;
+                    </span>
+
+                </article>
+
+
+                <!-- APPLE -->
+
+                <article class="manufacturer-card apple" data-brand="Apple" tabindex="0" role="button" aria-label="Filtrar comparador por Apple">
+
+                    <div class="manufacturer-icon">
+                        <img src="images/apple-logo.jpg" alt="Logo de Apple" class="manufacturer-logo">
+                    </div>
+
+                    <span class="manufacturer-tag">
+                        ARM
+                    </span>
+
+                    <h3>Apple</h3>
+
+                    <p>
+                        M1 · M2 · M3 · M4
+                    </p>
+
+                    <span class="market">
+                        Portátiles · Desktop · Profesional
+                    </span>
+
+                    <a href="https://www.youtube.com/watch?v=VLtvmPQd-x8"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="manufacturer-video-link">
+
+                        <i class="fa-brands fa-youtube"></i>
+                        Ver review en español
+
+                    </a>
+
+                    <span class="manufacturer-card-hint">
+                        Ver en el comparador &rarr;
+                    </span>
+
+                </article>
+
+
+                <!-- QUALCOMM -->
+
+                <article class="manufacturer-card qualcomm" data-brand="Qualcomm" tabindex="0" role="button" aria-label="Filtrar comparador por Qualcomm">
+
+                    <div class="manufacturer-icon">
+                        <img src="images/qualcomm-logo.jpg" alt="Logo de Qualcomm" class="manufacturer-logo">
+                    </div>
+
+                    <span class="manufacturer-tag">
+                        ARM
+                    </span>
+
+                    <h3>Qualcomm</h3>
+
+                    <p>
+                        Snapdragon · Snapdragon X
+                    </p>
+
+                    <span class="market">
+                        Móviles · Portátiles
+                    </span>
+
+                    <a href="https://www.youtube.com/watch?v=edbGs87B7bs"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="manufacturer-video-link">
+
+                        <i class="fa-brands fa-youtube"></i>
+                        Ver review en español
+
+                    </a>
+
+                    <span class="manufacturer-card-hint">
+                        Ver en el comparador &rarr;
+                    </span>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             COMPARADOR
+        ====================================================== -->
+
+        <section id="comparador" class="comparator section-container">
+
+            <div class="section-title">
+
+                <span class="section-number">05</span>
+
+                <div>
+
+                    <span class="section-label">
+                        COMPARADOR INTERACTIVO
+                    </span>
+
+                    <h2>
+                        Compara los procesadores
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <!-- FILTROS -->
+
+            <div class="filters">
+
+                <div class="filter-group">
+
+                    <label for="filterBrand">
+                        Fabricante
+                    </label>
+
+                    <select id="filterBrand">
+
+                        <option value="all">
+                            Todos
+                        </option>
+
+                        <option value="Intel">
+                            Intel
+                        </option>
+
+                        <option value="AMD">
+                            AMD
+                        </option>
+
+                        <option value="Apple">
+                            Apple
+                        </option>
+
+                        <option value="Qualcomm">
+                            Qualcomm
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="filter-group">
+
+                    <label for="filterFamily">
+                        Familia
+                    </label>
+
+                    <select id="filterFamily">
+
+                        <option value="all">
+                            Todas
+                        </option>
+
+                        <option value="Core">
+                            Core
+                        </option>
+
+                        <option value="Xeon">
+                            Xeon
+                        </option>
+
+                        <option value="Ryzen">
+                            Ryzen
+                        </option>
+
+                        <option value="Threadripper">
+                            Threadripper
+                        </option>
+
+                        <option value="M">
+                            Apple M
+                        </option>
+
+                        <option value="Snapdragon">
+                            Snapdragon
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="filter-group">
+
+                    <label for="filterMarket">
+                        Mercado
+                    </label>
+
+                    <select id="filterMarket">
+
+                        <option value="all">
+                            Todos
+                        </option>
+
+                        <option value="Desktop">
+                            Desktop
+                        </option>
+
+                        <option value="Gaming">
+                            Gaming
+                        </option>
+
+                        <option value="Workstation">
+                            Workstation
+                        </option>
+
+                        <option value="Servidor">
+                            Servidor
+                        </option>
+
+                        <option value="Portátil">
+                            Portátil
+                        </option>
+
+                        <option value="Móvil">
+                            Móvil
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <button
+                    id="resetFilters"
+                    class="reset-btn">
+
+                    <i class="fa-solid fa-rotate-left"></i>
+
+                    Limpiar filtros
+
+                </button>
+
+            </div>
+
+
+            <!-- TABLA -->
+
+            <div class="table-actions">
+                <p class="table-note">La tabla reúne especificaciones declaradas por fabricante y valores de referencia. Desplázate horizontalmente en pantallas pequeñas.</p>
+                <button id="exportCsv" class="reset-btn" type="button"><i class="fa-solid fa-file-csv"></i> Exportar CSV</button>
+            </div>
+
+            <div class="table-wrapper">
+
+                <table id="processorTable">
+                    <caption>Comparación técnica de procesadores seleccionados, 2016–2026</caption>
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Imagen</th>
+
+                            <th>Año</th>
+
+                            <th>Fabricante</th>
+
+                            <th>Procesador</th>
+
+                            <th>Familia</th>
+
+                            <th>Arquitectura</th>
+
+                            <th>Frecuencia</th>
+
+                            <th>Núcleos</th>
+
+                            <th>Hilos</th>
+
+                            <th>TDP</th>
+
+                            <th>IA / NPU</th>
+
+                            <th>Mercado</th>
+
+                            <th>Precio</th>
+
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody id="processorTableBody">
+
+                        <!--
+                            Los procesadores se cargarán
+                            dinámicamente desde script.js
+                        -->
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             SELECCIÓN PARA GRÁFICOS
+        ====================================================== -->
+
+        <section id="graficos" class="charts-section section-container">
+
+            <div class="section-title">
+
+                <span class="section-number">06</span>
+
+                <div>
+
+                    <span class="section-label">
+                        ANÁLISIS VISUAL
+                    </span>
+
+                    <h2>
+                        Rendimiento, energía e IA
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="chart-selection">
+
+                <div class="processor-select">
+
+                    <label>
+                        Procesador 1 (Intel)
+                    </label>
+
+                    <select id="processor1">
+
+                        <option value="">
+                            Seleccionar procesador
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="processor-select">
+
+                    <label>
+                        Procesador 2 (AMD)
+                    </label>
+
+                    <select id="processor2">
+
+                        <option value="">
+                            Seleccionar procesador
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="processor-select">
+
+                    <label>
+                        Procesador 3 (Qualcomm)
+                    </label>
+
+                    <select id="processor3">
+
+                        <option value="">
+                            Seleccionar procesador
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="processor-select">
+
+                    <label>
+                        Procesador 4 (Apple)
+                    </label>
+
+                    <select id="processor4">
+
+                        <option value="">
+                            Seleccionar procesador
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+
+            <!-- DETALLE DE PROCESADORES SELECCIONADOS -->
+
+            <div class="processor-details-grid" id="processorDetails">
+
+                <!--
+                    Las tarjetas de detalle (imagen grande,
+                    definición y descripción) se generan
+                    dinámicamente desde script.js
+                -->
+
+            </div>
+
+
+            <!-- RADAR -->
+
+            <div class="charts-grid">
+
+                <div class="chart-card">
+
+                    <div class="chart-header">
+
+                        <div>
+
+                            <span class="chart-label">
+                                COMPARACIÓN MULTIDIMENSIONAL
+                            </span>
+
+                            <h3>
+                                Radar de rendimiento
+                            </h3>
+
+                        </div>
+
+                        <i class="fa-solid fa-chart-pie"></i>
+
+                    </div>
+
+                    <div class="canvas-container">
+
+                        <canvas id="radarChart"></canvas>
+
+                    </div>
+
+                    <p class="chart-footnote">
+                        El gráfico compara frecuencia, TDP y TOPS de IA; los ejes usan escalas independientes porque las unidades son diferentes. Cada cifra de TOPS depende de la precisión y metodología declarada por el fabricante.
+                    </p>
+                    <p class="chart-footnote">
+                        Cada eje se normaliza para facilitar la lectura. La puntuación de TDP solo se calcula cuando el fabricante publica un valor comparable; “N/D” no significa consumo cero. La visualización es orientativa y no sustituye benchmarks independientes.
+                    </p>
+
+                </div>
+
+
+                <!-- BARRAS -->
+
+                <div class="chart-card">
+
+                    <div class="chart-header">
+
+                        <div>
+
+                            <span class="chart-label">
+                                COMPARACIÓN TÉCNICA
+                            </span>
+
+                            <h3>
+                                Frecuencia vs TDP vs TOPS
+                            </h3>
+
+                        </div>
+
+                        <i class="fa-solid fa-chart-column"></i>
+
+                    </div>
+
+                    <div class="canvas-container">
+
+                        <canvas id="barChart"></canvas>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- IA -->
+
+            <div class="chart-card full-width">
+
+                <div class="chart-header">
+
+                    <div>
+
+                        <span class="chart-label">
+                            INTELIGENCIA ARTIFICIAL
+                        </span>
+
+                        <h3>
+                            Capacidad de aceleración de IA
+                        </h3>
+
+                    </div>
+
+                    <i class="fa-solid fa-brain"></i>
+
+                </div>
+
+                <div class="canvas-container">
+
+                    <canvas id="aiChart"></canvas>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             MICROARQUITECTURA
+        ====================================================== -->
+
+        <section class="architecture section-container">
+
+            <div class="section-title">
+
+                <span class="section-number">07</span>
+
+                <div>
+
+                    <span class="section-label">
+                        MICROARQUITECTURA
+                    </span>
+
+                    <h2>
+                        Del monolítico a la heterogeneidad
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="architecture-grid">
+
+                <article class="architecture-card">
+
+                    <i class="fa-solid fa-layer-group"></i>
+
+                    <h3>
+                        Chiplets
+                    </h3>
+
+                    <p>
+                        Los diseños modernos separan diferentes componentes
+                        del procesador en pequeños bloques de silicio
+                        interconectados.
+                    </p>
+
+                </article>
+
+
+                <article class="architecture-card">
+
+                    <i class="fa-solid fa-code-branch"></i>
+
+                    <h3>
+                        Arquitecturas híbridas
+                    </h3>
+
+                    <p>
+                        La combinación de núcleos de diferentes características
+                        permite equilibrar rendimiento y eficiencia.
+                    </p>
+
+                </article>
+
+
+                <article class="architecture-card">
+
+                    <i class="fa-solid fa-memory"></i>
+
+                    <h3>
+                        Nuevas jerarquías de memoria
+                    </h3>
+
+                    <p>
+                        Las cachés de mayor capacidad y las memorias
+                        de alta velocidad son fundamentales para alimentar
+                        los núcleos de procesamiento.
+                    </p>
+
+                </article>
+
+
+                <article class="architecture-card">
+
+                    <i class="fa-solid fa-brain"></i>
+
+                    <h3>
+                        Aceleración de IA
+                    </h3>
+
+                    <p>
+                        Las NPU permiten ejecutar determinadas cargas
+                        de inteligencia artificial de forma más eficiente.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             CONCEPTOS FUNDAMENTALES
+        ====================================================== -->
+
+        <section id="conceptos" class="knowledge section-container">
+            <div class="section-title">
+                <span class="section-number">08</span>
+                <div><span class="section-label">CONCEPTOS FUNDAMENTALES</span><h2>Hilo vs. proceso</h2></div>
+            </div>
+            <div class="comparison-grid">
+                <article class="info-card"><i class="fa-solid fa-window-restore"></i><h3>Proceso</h3><p>Es una instancia de un programa en ejecución. Tiene su propio espacio de memoria y recursos asignados por el sistema operativo.</p></article>
+                <article class="info-card"><i class="fa-solid fa-code"></i><h3>Hilo</h3><p>Es una unidad de ejecución dentro de un proceso. Los hilos de un mismo proceso comparten memoria y recursos, aunque cada hilo mantiene su propio estado de ejecución.</p></article>
+            </div>
+            <div class="example-box"><strong>Ejemplo práctico:</strong> un navegador puede ejecutarse como varios procesos, mientras cada proceso puede contener múltiples hilos para interfaz, red, reproducción multimedia o ejecución de JavaScript. Un procesador con varios núcleos permite ejecutar varios hilos en paralelo; el multihilo simultáneo puede mejorar el aprovechamiento de cada núcleo cuando la carga lo permite.</div>
+
+            <div class="section-title compact-title" style="margin-top:48px">
+                <span class="section-number">09</span>
+                <div><span class="section-label">ACELERADORES</span><h2>CPU vs GPU vs TPU/NPU</h2></div>
+            </div>
+            <div class="table-wrapper">
+                <table class="academic-table">
+                    <thead><tr><th>Unidad</th><th>Función</th><th>Tareas típicas</th><th>Paralelismo</th><th>Consumo</th><th>Ejemplos</th></tr></thead>
+                    <tbody>
+                        <tr><td><strong>CPU</strong></td><td>Propósito general y control del sistema</td><td>SO, aplicaciones, lógica, cargas secuenciales</td><td>Medio; pocos núcleos muy complejos</td><td>Variable</td><td>Intel Core, AMD Ryzen, Apple M</td></tr>
+                        <tr><td><strong>GPU</strong></td><td>Cómputo masivamente paralelo</td><td>Gráficos, matrices, IA, vídeo</td><td>Muy alto</td><td>Alto en cargas intensivas</td><td>Intel Arc, Radeon, Apple GPU</td></tr>
+                        <tr><td><strong>NPU</strong></td><td>Acelerar redes neuronales con eficiencia</td><td>IA local, visión, audio, efectos generativos</td><td>Especializado y muy alto</td><td>Bajo/eficiente para cargas sostenidas</td><td>Intel NPU, AMD XDNA, Hexagon</td></tr>
+                        <tr><td><strong>TPU</strong></td><td>Acelerador especializado para aprendizaje automático</td><td>Operaciones tensoriales y modelos ML</td><td>Masivo</td><td>Optimizado para cargas ML</td><td>Google TPU</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="ai-flow"><span>CPU</span><b>→</b><span>GPU</span><b>→</b><span>NPU</span><b>→</b><span>TOPS</span><p>La CPU coordina y ejecuta tareas generales; la GPU aporta throughput paralelo; la NPU descarga inferencia de IA eficiente. TOPS expresa capacidad teórica de operaciones por segundo y no equivale a rendimiento real de una aplicación.</p></div>
+        </section>
+
+        <!-- =====================================================
+             ARM / RISC-V
+        ====================================================== -->
+        <section id="arquitecturas" class="knowledge section-container">
+            <div class="section-title"><span class="section-number">10</span><div><span class="section-label">ARQUITECTURAS ISA</span><h2>ARM vs RISC-V</h2></div></div>
+            <div class="comparison-grid">
+                <article class="info-card"><span class="architecture-badge">ARM</span><h3>Arquitectura RISC consolidada</h3><p>ARM define una arquitectura de conjunto de instrucciones que utilizan múltiples fabricantes. Destaca por escalabilidad y eficiencia energética y está presente desde IoT y móviles hasta servidores.</p><ul><li><strong>Ventajas:</strong> ecosistema maduro, eficiencia, amplia adopción.</li><li><strong>Desventajas:</strong> la arquitectura se licencia; el acceso y las condiciones dependen del modelo de licencia.</li><li><strong>Ejemplos:</strong> Apple Silicon, Qualcomm Snapdragon, Cortex.</li></ul></article>
+                <article class="info-card"><span class="architecture-badge">RISC-V</span><h3>ISA abierta y extensible</h3><p>RISC-V es un estándar abierto de ISA basado en principios RISC. Su base puede combinarse con extensiones estándar y personalizadas, lo que favorece investigación, educación y diseños especializados.</p><ul><li><strong>Ventajas:</strong> estándar abierto, extensibilidad y libertad de implementación.</li><li><strong>Desventajas:</strong> ecosistema de software y mercado de dispositivos de consumo todavía menor que ARM.</li><li><strong>Ejemplos:</strong> microcontroladores, SoC, investigación y sistemas embebidos.</li></ul></article>
+            </div>
+            <div class="example-box"><strong>Relación con Apple y Qualcomm:</strong> ambos utilizan ARM como base de sus procesadores; Apple diseña sus propias microarquitecturas Apple Silicon y Qualcomm desarrolla Oryon para Snapdragon. Esto muestra la diferencia entre una ISA y una microarquitectura: la ISA define el contrato de instrucciones, mientras la microarquitectura determina cómo se implementa físicamente.</div>
+        </section>
+
+        <!-- =====================================================
+             MICROARQUITECTURAS DETALLADAS
+        ====================================================== -->
+        <section class="architecture-detail section-container">
+            <div class="section-title"><span class="section-number">11</span><div><span class="section-label">DISEÑO INTERNO</span><h2>Microarquitecturas por fabricante</h2></div></div>
+            <div class="manufacturer-detail-grid">
+                <article class="detail-card"><h3>Intel</h3><p><strong>x86-64</strong>, con diseños híbridos de <strong>P-cores/E-cores</strong> en familias recientes. Core Ultra incorpora NPU; generaciones modernas emplean diseños modulares de tiles/chiplets según el producto.</p></article>
+                <article class="detail-card"><h3>AMD</h3><p><strong>Zen</strong> como base de Ryzen y EPYC. El enfoque chiplet separa CCD/CCX y funciones de I/O; algunos Ryzen incorporan <strong>3D V-Cache</strong> y Ryzen AI añade aceleración XDNA.</p></article>
+                <article class="detail-card"><h3>Apple</h3><p><strong>Apple Silicon ARM</strong> combina núcleos de rendimiento y eficiencia, GPU integrada, Neural Engine y memoria unificada. El enfoque SoC integra CPU, GPU, aceleradores y controladores de memoria.</p></article>
+                <article class="detail-card"><h3>Qualcomm</h3><p><strong>ARM + Oryon</strong> en Snapdragon X. La plataforma combina CPU Oryon, GPU Adreno y <strong>Hexagon NPU</strong> para cargas de IA en portátiles y otros dispositivos.</p></article>
+            </div>
+        </section>
+
+        <!-- =====================================================
+             MEMORIA
+        ====================================================== -->
+        <section class="memory-section section-container">
+            <div class="section-title"><span class="section-number">12</span><div><span class="section-label">JERARQUÍA DE MEMORIA</span><h2>De la caché a la memoria principal</h2></div></div>
+            <div class="memory-grid">
+                <article><h3>L1</h3><p>Muy pequeña y extremadamente rápida; normalmente separada para instrucciones y datos.</p></article>
+                <article><h3>L2</h3><p>Mayor capacidad que L1 y menor latencia que la RAM; puede ser privada por núcleo o compartida según el diseño.</p></article>
+                <article><h3>L3</h3><p>Caché de mayor tamaño, habitualmente compartida; reduce accesos a RAM y mejora cargas sensibles a latencia.</p></article>
+                <article><h3>RAM DDR/LPDDR</h3><p>Almacena datos y programas activos. DDR prioriza rendimiento de sistemas generales; LPDDR busca eficiencia energética en móviles y portátiles.</p></article>
+                <article><h3>Ancho de banda</h3><p>Indica cuántos datos pueden transferirse por unidad de tiempo. Es crítico en GPU, IA y cargas con grandes volúmenes de datos.</p></article>
+                <article><h3>Memoria unificada</h3><p>Apple integra CPU y GPU con un espacio de memoria compartido, reduciendo copias de datos entre unidades y simplificando el acceso al mismo conjunto de datos.</p></article>
+            </div>
+            <div class="example-box"><strong>Importante:</strong> capacidad y ancho de banda no son lo mismo. Un sistema puede tener mucha memoria pero un ancho de banda limitado, o poca capacidad con una memoria extremadamente rápida. La comparación debe considerar capacidad máxima, tipo de memoria, canales y ancho de banda cuando el fabricante los publica.</div>
+        </section>
+
+        <!-- =====================================================
+             SISTEMAS EMBEBIDOS
+        ====================================================== -->
+        <section id="embebidos" class="embedded section-container">
+            <div class="section-title"><span class="section-number">13</span><div><span class="section-label">APLICACIONES</span><h2>Sistemas embebidos</h2></div></div>
+            <p class="section-lead">Un sistema embebido integra hardware y software para realizar una función específica dentro de un producto. La prioridad puede ser tiempo real, bajo consumo, seguridad, confiabilidad o costo, no solamente la máxima frecuencia.</p>
+            <div class="embedded-grid">
+                <article><i class="fa-solid fa-car"></i><h3>Automóviles</h3><p>Control de motor, ADAS, infotainment, cámaras y sensores.</p></article>
+                <article><i class="fa-solid fa-wifi"></i><h3>Routers</h3><p>Enrutamiento, seguridad, Wi-Fi y gestión de paquetes.</p></article>
+                <article><i class="fa-solid fa-house-signal"></i><h3>IoT</h3><p>Sensores, actuadores, conectividad y procesamiento en el borde.</p></article>
+                <article><i class="fa-solid fa-blender"></i><h3>Electrodomésticos</h3><p>Control de motores, interfaces, sensores y ahorro energético.</p></article>
+                <article><i class="fa-solid fa-industry"></i><h3>Industria</h3><p>PLC, control de procesos, robótica y monitoreo en tiempo real.</p></article>
+            </div>
+        </section>
+
+        <!-- =====================================================
+             ANÁLISIS
+        ====================================================== -->
+
+        <section id="analisis" class="analysis section-container">
+
+            <div class="section-title">
+
+                <span class="section-number">14</span>
+
+                <div>
+
+                    <span class="section-label">
+                        ANÁLISIS
+                    </span>
+
+                    <h2>
+                        ¿Qué cambió durante la década?
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="analysis-grid">
+
+                <article class="analysis-card">
+
+                    <span class="analysis-number">
+                        01
+                    </span>
+
+                    <h3>
+                        Frecuencia
+                    </h3>
+
+                    <p>
+                        El incremento de frecuencia dejó de ser el único
+                        mecanismo para aumentar el rendimiento debido
+                        principalmente a las limitaciones térmicas
+                        y energéticas.
+                    </p>
+
+                </article>
+
+
+                <article class="analysis-card">
+
+                    <span class="analysis-number">
+                        02
+                    </span>
+
+                    <h3>
+                        Paralelismo
+                    </h3>
+
+                    <p>
+                        El aumento de núcleos e hilos permitió ejecutar
+                        más tareas simultáneamente y mejorar el rendimiento
+                        en cargas paralelizables.
+                    </p>
+
+                </article>
+
+
+                <article class="analysis-card">
+
+                    <span class="analysis-number">
+                        03
+                    </span>
+
+                    <h3>
+                        Eficiencia
+                    </h3>
+
+                    <p>
+                        Las arquitecturas ARM y los procesos de fabricación
+                        avanzados demostraron el potencial de aumentar
+                        el rendimiento manteniendo un consumo contenido.
+                    </p>
+
+                </article>
+
+
+                <article class="analysis-card">
+
+                    <span class="analysis-number">
+                        04
+                    </span>
+
+                    <h3>
+                        Inteligencia artificial
+                    </h3>
+
+                    <p>
+                        La integración de aceleradores especializados
+                        convirtió la IA en una característica fundamental
+                        de los procesadores modernos.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             CONCLUSIONES
+        ====================================================== -->
+
+        <section class="conclusions section-container">
+
+            <div class="section-title">
+
+                <span class="section-number">15</span>
+
+                <div>
+
+                    <span class="section-label">
+                        CONCLUSIONES
+                    </span>
+
+                    <h2>
+                        Principales hallazgos
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="conclusion-box">
+
+                <p>
+                    El periodo 2016–2026 demuestra que la evolución de
+                    los procesadores no puede evaluarse únicamente mediante
+                    la frecuencia de reloj.
+                </p>
+
+                <p>
+                    Intel y AMD mantienen una fuerte presencia en
+                    arquitecturas x86, mientras que Apple y Qualcomm
+                    han demostrado el potencial de ARM en dispositivos
+                    de consumo y computadores personales.
+                </p>
+
+                <p>
+                    La eficiencia energética, el diseño heterogéneo,
+                    los chiplets, las nuevas jerarquías de memoria y
+                    los aceleradores de inteligencia artificial son
+                    elementos fundamentales de la arquitectura moderna.
+                </p>
+
+                <p>
+                    Por lo tanto, el mejor procesador depende de la
+                    aplicación: gaming, productividad, servidores,
+                    estaciones de trabajo, dispositivos móviles o
+                    inteligencia artificial.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             FUENTES
+        ====================================================== -->
+
+        <section class="limitations section-container">
+            <div class="section-title">
+                <span class="section-number">16</span>
+                <div>
+                    <span class="section-label">LIMITACIONES</span>
+                    <h2>Qué debe tenerse en cuenta</h2>
+                </div>
+            </div>
+            <div class="method-note">
+                <p><strong>1.</strong> La frecuencia máxima no determina por sí sola el rendimiento.</p>
+                <p><strong>2.</strong> TDP, potencia real y autonomía son conceptos relacionados pero diferentes.</p>
+                <p><strong>3.</strong> Las cifras de TOPS corresponden al acelerador de IA indicado por cada fabricante y no son equivalentes entre arquitecturas.</p>
+                <p><strong>4.</strong> Para Apple y algunos equipos ARM, el precio mostrado corresponde al dispositivo que integra el chip, porque el procesador no se comercializa como componente independiente.</p>
+            </div>
+        </section>
+
+
+        <!-- =====================================================
+             AUDITORÍA DE IA
+        ====================================================== -->
+        <section id="auditoria-ia" class="ai-audit section-container">
+            <div class="section-title"><span class="section-number">18</span><div><span class="section-label">TRANSPARENCIA ACADÉMICA</span><h2>Auditoría y declaración del uso de IA</h2></div></div>
+            <div class="audit-box">
+                <p><strong>Herramientas utilizadas:</strong> asistentes de inteligencia artificial generativa para apoyo en organización, redacción, explicación conceptual, revisión del código y propuesta de estructura visual.</p>
+                <p><strong>Para qué se utilizó:</strong> identificar vacíos frente a la rúbrica, mejorar explicaciones de arquitectura de computadores, generar borradores de contenido y ayudar a revisar la implementación HTML/CSS/JavaScript.</p>
+                <p><strong>Partes apoyadas por IA:</strong> textos explicativos, estructura de algunas secciones, sugerencias de diseño, revisión del comparador y generación/ajuste de código. El equipo debe revisar y adaptar el contenido final antes de entregarlo.</p>
+                <p><strong>Verificación:</strong> las especificaciones técnicas se contrastaron con documentación de fabricantes y fuentes técnicas. Las cifras de TOPS se presentan como capacidad teórica y se conserva la advertencia de que no sustituyen benchmarks.</p>
+                <p><strong>Control de errores o alucinaciones:</strong> cuando una cifra no pudo comprobarse de manera comparable, se marcó como N/D o se evitó convertirla en un valor artificial. Los precios se identifican como referencias de mercado y no como características arquitectónicas.</p>
+                <p><strong>Principio académico:</strong> la IA se utilizó como herramienta de apoyo, no como sustituto del análisis. La responsabilidad sobre las afirmaciones, fuentes y versión final corresponde al equipo que presenta el trabajo.</p>
+            </div>
+        </section>
+
+        <section id="fuentes" class="sources section-container">
+
+            <div class="section-title">
+
+                <span class="section-number">19</span>
+
+                <div>
+
+                    <span class="section-label">
+                        REFERENCIAS
+                    </span>
+
+                    <h2>
+                        Fuentes de información
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="sources-list">
+
+                <a href="https://www.intel.com/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                    Intel — Información oficial de productos
+
+                </a>
+
+
+                <a href="https://www.amd.com/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                    AMD — Información oficial de productos
+
+                </a>
+
+
+                <a href="https://www.apple.com/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                    Apple — Información oficial de Apple Silicon
+
+                </a>
+
+
+                <a href="https://www.arm.com/architecture" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> ARM — CPU Architecture</a>
+                <a href="https://docs.riscv.org/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> RISC-V International — Especificaciones ratificadas</a>
+                <a href="https://spectrum.ieee.org/chiplet" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> IEEE Spectrum — Chiplets</a>
+                <a href="https://www.qualcomm.com/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                    Qualcomm — Información oficial de Snapdragon
+
+                </a>
+
+            </div>
+
+
+            <div class="sources-subtitle">Referencias técnicas (formato APA simplificado)</div>
+
+            <ol class="apa-list">
+                <li>Intel. (s. f.). <em>Intel Core i7-6700K Processor — Specifications</em>.</li>
+                <li>Intel. (s. f.). <em>Intel Core Ultra 9 Processor 285K — Specifications</em>.</li>
+                <li>Advanced Micro Devices. (s. f.). <em>AMD Ryzen 9 9950X — Product Specifications</em>.</li>
+                <li>Advanced Micro Devices. (s. f.). <em>AMD Ryzen Threadripper 7980X — Product Specifications</em>.</li>
+                <li>Apple. (s. f.). <em>MacBook Air (M4) — Technical Specifications</em>.</li>
+                <li>Apple. (s. f.). <em>Mac Studio (M4 Max) — Technical Specifications</em>.</li>
+                <li>Qualcomm. (s. f.). <em>Snapdragon X Elite — Specifications</em>.</li>
+                <li>Arm. (s. f.). <em>CPU Architecture</em>.</li>
+                <li>RISC-V International. (2026). <em>RISC-V Ratified Specifications Library</em>.</li>
+                <li>Moore, S. K. (2023). <em>What AMD Learned From Its Big Chiplet Push</em>. IEEE Spectrum.</li>
+            </ol>
+
+            <div class="sources-subtitle">
+                Fuentes de precios (referencia, Colombia, agosto de 2026)
+            </div>
+
+            <ul class="sources-price-list">
+
+                <li>
+                    Intel Core Ultra 9 285K — TigerTech (precio de contado)
+                </li>
+
+                <li>
+                    Intel Xeon w7-2495X — SHI (USD 2.891, convertido a COP
+                    según TRM del 31/08/2026)
+                </li>
+
+                <li>
+                    AMD Ryzen 9 9950X — Cometware
+                </li>
+
+                <li>
+                    AMD Threadripper 7980X — Precio de lanzamiento oficial
+                    de AMD (USD 4.999, convertido a COP)
+                </li>
+
+                <li>
+                    Apple M4 y M4 Max — Mac Center (precio del equipo;
+                    Apple no vende el chip por separado)
+                </li>
+
+                <li>
+                    Qualcomm Snapdragon X Elite — ASUS Colombia / El Tiempo
+                    (precio de lanzamiento del ASUS Vivobook S 15)
+                </li>
+
+            </ul>
+
+            <p class="sources-note">
+                Los precios son valores de referencia sujetos a cambio
+                según el mercado, la tienda y la fecha de consulta.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div class="footer-logo">
+
+                <i class="fa-solid fa-microchip"></i>
+
+                CPU<span>LAB</span>
+
+            </div>
+
+
+            <p>
+                Actividad Integrativa · Arquitectura de Computadores
+            </p>
+
+
+            <p>
+                Comparativo de procesadores 2016–2026
+            </p>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                Proyecto académico · Ingeniería de Sistemas
+
+                karol sabid erney katrin
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
