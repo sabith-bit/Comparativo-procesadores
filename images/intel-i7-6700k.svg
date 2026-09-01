@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+<rect width="600" height="600" fill="#eef1ed"/>
+<g fill="none" stroke="#1f6f64" stroke-width="8">
+<rect x="145" y="145" width="310" height="310" rx="18" fill="#16212c"/>
+<rect x="205" y="205" width="190" height="190" rx="8" fill="#f2f4ef"/>
+<path d="M145 185H95M145 245H95M145 305H95M145 365H95M455 185H505M455 245H505M455 305H505M455 365H505M185 145V95M245 145V95M305 145V95M365 145V95M185 455V505M245 455V505M305 455V505M365 455V505"/>
+</g>
+<text x="300" y="278" text-anchor="middle" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#16212c">i7-6700K</text>
+<text x="300" y="320" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" fill="#35563f">SKYLAKE · 2016</text>
+</svg>
